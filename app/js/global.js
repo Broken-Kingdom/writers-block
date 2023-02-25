@@ -7,13 +7,13 @@ function colorScheme() {
     if (html.classList.contains("dark-mode") == true) {
         html.classList.remove("dark-mode")
         html.classList.add("light-mode")
-        document.getElementById("colorScheme").innerHTML = "dark-mode"
+        document.getElementById("colorScheme").innerHTML = "Dark Mode"
 
     }
 
     else {
         html.classList.remove("light-mode")
         html.classList.add("dark-mode")
-        document.getElementById("colorScheme").innerHTML = "light-mode"
+        document.getElementById("colorScheme").innerHTML = "Light Mode"
     }
 }
