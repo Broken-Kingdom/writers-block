@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Writer's Block - Sign Up</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="pages">
+            <button disabled>Homepage</button>
+            <a href="./your_stories.html"><button>Your Stories</button></a>
+        </div>
+        <button id="colorScheme" onclick="colorScheme()">dark-mode</button>
+        <a href="./login.html"><button>Sign Up</button></a>
+    </div>
+
+    <div class="body">
+        <form>
+            <label for="email">Email Address:</label>
+            <textarea id="emailarea" name="email">Enter a valid Email Address...</textarea>
+            <label for="username">Username:</label>
+            <textarea id="usernamearea" name="username">Enter a Username...</textarea>
+            <label for="password">Password:</label>
+            <textarea name="password"></textarea>
+        </form>
+    </div>
+
+    <script src="../js/global.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

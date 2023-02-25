@@ -1,14 +1,22 @@
 .light-mode {
-    --header-bg-color: #f503f2;
-    --doc-bg-color: #000;
+    --header-bg-color: #58b0d3;
+    --doc-bg-color: #eeeeee;
     --header-text-color: #000;
+    --html-color: #000;
 }
 
 .dark-mode {
-    --header-bg-color: #2d9221;
+    --header-bg-color: #1b6813;
     --header-color: #000;
-    --doc-bg-color: #fff;
+    --doc-bg-color: #000000;
     --header-text-color: #fff;
+    --html-color: #fff;
+}
+
+html {
+    height: 1000%;
+    background-color: var(--doc-bg-color);
+    color: var(--html-color)
 }
 
 .header {
@@ -36,7 +44,7 @@
 
 }
 
-html {
-    height: 1000%;
-    background-color: var(--doc-bg-color);
+form textarea {
+    font-style: italic;
+    color: #8a8a8a;
 }
