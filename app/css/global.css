@@ -1,13 +1,42 @@
 .light-mode {
-    --header-bg-color:  
+    --header-bg-color: #f503f2;
+    --doc-bg-color: #000;
+    --header-text-color: #000;
 }
 
 .dark-mode {
     --header-bg-color: #2d9221;
-    --header-color: #000000;
-    --doc-bg-color: #ffffff;
+    --header-color: #000;
+    --doc-bg-color: #fff;
+    --header-text-color: #fff;
 }
 
-.header { 
+.header {
     background-color: var(--header-bg-color);
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 101.1%;
+    margin-left: -0.55%;
+    margin-top: -1%;
+    row-gap: 120px;
+    column-gap: 100px;
+}
+
+.header button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: var(--header-text-color);
+
+}
+
+html {
+    height: 1000%;
+    background-color: var(--doc-bg-color);
 }

@@ -10,19 +10,25 @@
 
 -->
 
-<html>
-    <head>
-        <title>Writer's Block - Home</title>
-        <link rel="stylesheet" href="../css/global.css">
-        <link rel="stylesheet" href="../css/home.css">
-    </head>
-    <body>
-        <div class="header">
+<html class="light-mode">
+
+<head>
+    <title>Writer's Block - Home</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="pages">
             <button disabled>Homepage</button>
             <a href="./your_stories.html"><button>Your Stories</button></a>
-            <a href="./login.html"><button>Sign Up / Login</button></a>
         </div>
+        <button id="colorScheme" onclick="colorScheme()">dark-mode</button>
+        <a href="./login.html"><button>Sign Up / Login</button></a>
+    </div>
 
-        <script src="../js/home.js"></script>
-    </body>
+    <script src="../js/home.js"></script>
+</body>
+
 </html>
