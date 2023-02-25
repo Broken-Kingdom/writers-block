@@ -23,6 +23,7 @@
     margin-top: -1%;
     row-gap: 120px;
     column-gap: 100px;
+    /* position: fixed */
 }
 
 .header button {
@@ -33,10 +34,19 @@
     overflow: hidden;
     outline: none;
     color: var(--header-text-color);
+    font-size: large;
 
 }
 
 html {
     height: 1000%;
     background-color: var(--doc-bg-color);
+}
+
+.headerRight {
+    margin-right: 1%;
+}
+
+.pages {
+    margin-left: 1%;
 }
