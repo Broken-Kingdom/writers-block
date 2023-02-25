@@ -1,0 +1,13 @@
+.light-mode {
+    --header-bg-color:  
+}
+
+.dark-mode {
+    --header-bg-color: #2d9221;
+    --header-color: #000000;
+    --doc-bg-color: #ffffff;
+}
+
+.header { 
+    background-color: var(--header-bg-color);
+}

@@ -1,0 +1,17 @@
+{
+  "name": "writers-block",
+  "version": "1.0.0",
+  "description": "A webpage to write stories and keep track of all their elements.",
+  "main": "start.js",
+  "scripts": {
+    "test": "node start.js"
+  },
+  "keywords": [
+    "writer's",
+    "block",
+    "writing",
+    "stories"
+  ],
+  "author": "sselesUssecnirP",
+  "license": "MIT"
+}
