@@ -31,6 +31,7 @@ html {
     margin-top: -1%;
     row-gap: 120px;
     column-gap: 100px;
+    /* position: fixed */
 }
 
 .header button {
@@ -41,10 +42,24 @@ html {
     overflow: hidden;
     outline: none;
     color: var(--header-text-color);
+    font-size: large;
 
 }
 
 form textarea {
     font-style: italic;
     color: #8a8a8a;
+}
+
+html {
+    height: 1000%;
+    background-color: var(--doc-bg-color);
+}
+
+.headerRight {
+    margin-right: 1%;
+}
+
+.pages {
+    margin-left: 1%;
 }
