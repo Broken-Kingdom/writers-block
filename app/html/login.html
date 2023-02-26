@@ -11,20 +11,28 @@
 <body>
     <div class="header">
         <div class="pages">
-            <button disabled>Homepage</button>
-            <a href="./your_stories.html"><button>Your Stories</button></a>
+            <a href="./home.html"><button><b>Homepage</b></button></a>
+            <a href="./your_stories.html"><button><b>Your Stories</b></button></a>
         </div>
-        <button id="colorScheme" onclick="colorScheme()">Light Mode</button>
+        <div class="headerRight">
+            <button id="colorScheme" onclick="colorScheme()">Light Mode</button>
+        </div>
     </div>
 
     <div class="body">
         <form>
-            <label for="email">Email Address:</label>
-            <textarea id="emailarea" name="email">Enter a valid Email Address...</textarea>
-            <label for="username">Username:</label>
-            <textarea id="usernamearea" name="username">Enter a Username...</textarea>
-            <label for="password">Password:</label>
-            <textarea name="password"></textarea>
+            <div>
+                <label for="email">Email Address:</label>
+                <textarea id="emailarea" name="email">Enter a valid Email Address...</textarea>
+            </div>
+            <div>
+                <label for="username">Username:</label>
+                <textarea id="usernamearea" name="username">Enter a Username...</textarea>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <textarea name="password"></textarea>
+            </div>
         </form>
     </div>
 
