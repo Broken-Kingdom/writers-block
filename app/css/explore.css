@@ -1,0 +1,39 @@
+#featuredStories {
+    display: flex;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+
+.story {
+    width: 30%;
+
+}
+
+.image {
+    width: 20vh;
+    height: 20vh;
+    margin-left: 3%;
+    background-color: white;
+    flex-shrink: 0;
+}
+
+.description {
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomStories {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottomStories .story {
+    width: 45vw;
+}
